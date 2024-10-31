@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.fa-moon {
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+}
+
+.fa-sun {
+    font-size: 15px;
+    color: yellow;
+    margin-left: 5px;
+    visibility: hidden;
+}
+
+.noteslink, .section4 {
+    background-color: #272621;
+}
+
+p5, .noted, .headlist, section ul li, #countdownlink, .section4 div div p {
+    color: white;
+}
+
+.overlayimage {
+    position: absolute;
+    width: 100%;
+    top: 440px;
+    height: 70px;
+}
+
+.grey-top {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    top: 60px;
+    object-fit: cover;
+}

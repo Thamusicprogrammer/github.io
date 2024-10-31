@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.fa-moon {
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+.fa-sun {
+    font-size: 15px;
+    color: yellow;
+    margin-left: 5px;
+}
+
+#topgrey2  {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+}
+
+#secimg {
+    position: relative;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    object-fit: cover;
+}

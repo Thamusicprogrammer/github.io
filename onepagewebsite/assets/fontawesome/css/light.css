@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.fa-moon {
+    font-size: 15px;
+    color: white;
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+.fa-sun {
+    font-size: 15px;
+    color: yellow;
+    margin-left: 5px;
+}
+
+.overlayimage {
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    width: auto;
+}
+
+.grey-top {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    top: 70px;
+    object-fit: cover;
+}

@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#firstimg {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+}
+
+.fa-moon {
+  font-size: 15px;
+  color: white;
+  margin-right: 5px;
+}
+
+.fa-sun {
+  font-size: 15px;
+  color: yellow;
+  margin-left: 5px;
+  visibility: hidden;
+}
+
+.last-section, .section4, #sect4, #contact, .contactus, .inputbox1 > input,
+.inputbox2 > input, .inputbox3 > input, .input3 > textarea, .important-notes {
+  background-color: #272621;
+}
+
+.note-text h3, .section4 div div p, .note h4 {
+  color: white;
+}
+
+#topgrey2 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+}
+
+#secimg {
+  position: relative;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+  object-fit: cover;
+}
+
+.first_page {
+  background-image: url(../images/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 740px;
+  overflow: hidden;
+  position: relative;
+  filter:grayscale()
+}
+
+/* Scroll To Top Button */
+#scrollTopBtn {
+  position: fixed; /* Keep the button fixed */
+  bottom: 20px;
+  right: 20px;
+  /* display: none; */
+  background-color:black;
+  color: white !important;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  animation: jump 2s infinite; /* Infinite jump animation */
+}
+@keyframes jump {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px); /* Jump upwards */
+      background-color: rgb(95, 92, 92);
+      color: white !important;
+  }
+  100% {
+      transform: translateY(0); /* Back to original position */
+  }
+}
+.fa-arrow-up {
+  color: white;
+  font-size: 20px;
+}
+
+#scrollTopBtn:hover {
+  background-color:black;
+  color: white;
+}
+/* Scroll button smooth scrolling */
+html {
+  scroll-behavior: smooth; 
+}
+footer {
+  background-color: black;
+  color:white;
+  padding: 50px 20px;
+  text-align: center;
+}
